@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  background: none;
+  border: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  position: relative;
+}

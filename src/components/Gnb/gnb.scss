@@ -1,0 +1,5 @@
+.gnb-container {
+  width: 100%;
+  position: fixed;
+  @include flex-style(center, center);
+}
